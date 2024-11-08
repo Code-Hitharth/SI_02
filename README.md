@@ -1,6 +1,7 @@
 # SI_02
 
 Visually appealing product page
+
 1.Responsive Design: The @media query in CSS adjusts the layout for smaller screens.
 2.Product Details: Includes high-quality images, descriptions, specifications, and pricing.
 3.Interactive Elements:
