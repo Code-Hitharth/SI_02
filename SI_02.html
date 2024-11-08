@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Product Page</title>
+    <link rel="stylesheet" href="SI_02.css".css" />
+    <script src="SI_02.js" defer></script>
+  </head>
+  <body>
+    <div class="product-page">
+      <!-- Product Image Gallery -->
+      <div class="product-gallery">
+        <img
+          id="mainImage"
+          src="main.webp"
+          alt="Product Image"
+          class="main-image"
+        />
+        <div class="thumbnail-gallery">
+          <img
+            src="first.webp"
+            alt="Product Thumbnail"
+            onclick="changeImage('first.webp')"
+            height="100px"
+            width="100px"
+          />
+          <img
+            src="Second.webp"
+            alt="Product Thumbnail"
+            onclick="changeImage('Second.webp')"
+            height="100px"
+            width="100px"
+          />
+          <img
+            src="third.webp"
+            alt="Product Thumbnail"
+            onclick="changeImage('third.webp')"
+            height="100px"
+            width="100px"
+          />
+        </div>
+      </div>
+
+      <!-- Product Details -->
+      <div class="product-details">
+        <h1>
+          CHUWI Intel Celeron Dual Core 11th Gen N4020 - (8 GB/256 GB
+          SSD/Windows 11 Home) HeroBook Pro Laptop (14.1 inch, Grey, 1.39 kg)
+        </h1>
+        <p class="price">$199.99</p>
+        <p class="description">
+          This HeroBook Pro laptop is packed with an array of features to
+          provide seamless operations. Equipped with a 35.81 cm (14.1) IPS
+          screen to view the visuals in 1920x1080 UHD resolution with utmost
+          detailing. This laptop features a powerful Intel Celeron N4020
+          processor and UHD Graphics 600 so you can enable smooth and efficient
+          multitasking and 4K video playback. The 38 Wh polymer lithium-ion
+          battery offers long-lasting battery life so you can enjoy
+          uninterrupted performance for up to 9 hours. This laptop comes with
+          multiple connectivity ports to offer seamless connections to enhance
+          your productivity.
+        </p>
+
+        <!-- Specifications -->
+        <div class="specifications">
+          <h3>Specifications:</h3>
+          <ul>
+            <li>Material: High-quality stainless steel</li>
+            <li>Weight: 1.5 kg</li>
+            <li>Dimensions: 10 x 5 x 3 inches</li>
+            <li>Model Number HeroBook Pro</li>
+          </ul>
+        </div>
+
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart">Add to Cart</button>
+
+        <!-- Product Reviews -->
+        <div class="reviews">
+          <h3>Customer Reviews</h3>
+          <div class="review">
+            <p>
+              <strong>User 1:</strong> Amazing product! Highly recommend it.
+            </p>
+          </div>
+          <div class="review">
+            <p><strong>User 2:</strong> Good quality, worth the price.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
